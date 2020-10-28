@@ -4,32 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack serve",
     "production": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootswatch": "^4.4.1",
+    "bootswatch": "^4.5.3",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.3.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "@babel/preset-react": "^7.9.4",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
     "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.2",
-    "dotenv-webpack": "^1.7.0",
-    "eslint": "^6.8.0",
-    "eslint-loader": "^4.0.0",
-    "eslint-plugin-react": "^7.19.0",
-    "html-webpack-plugin": "^4.2.0",
-    "style-loader": "^1.1.4",
-    "webpack-dev-server": "^3.10.3"
+    "css-loader": "^5.0.0",
+    "dotenv-webpack": "^4.0.0",
+    "eslint": "^7.12.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.21.5",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0"
   }
 }

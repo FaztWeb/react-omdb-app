@@ -1,25 +1,23 @@
-import React, { Fragment } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
 import List from "./containers/List";
+import Navbar from "./components/Navbar";
 
 import "bootswatch/dist/lux/bootstrap.min.css";
 import "./index.css";
 
 const App = () => {
   return (
-    <Fragment>
-      <nav className="navbar navbar-dark bg-dark border-bottom border-white">
-        <a className="navbar-brand" href="/">
-          MovieApp
-        </a>
-      </nav>
+    <>
+      <Navbar />
+
       <main className="bg-dark">
         <div className="container">
           <List />
         </div>
       </main>
-    </Fragment>
+    </>
   );
 };
 
